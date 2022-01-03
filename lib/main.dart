@@ -73,7 +73,7 @@ class MyApp extends StatelessWidget {
               InkWell(child: const Text('Регистрация', style: linkTextStyle,),
                   onTap:() {}),
               SizedBox(height: 20,),
-              InkWell(child: Text('Забыли пароль?', style: linkTextStyle,),onTap:() {},),
+              InkWell(child: Text('Забыли пароль?',style: linkTextStyle, ),onTap:() {},),
             ],),
           )
       ),
